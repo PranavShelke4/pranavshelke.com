@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setShowHome(true);
-    }, 6000);
+    }, 5000);
   }, []);
 
   return (

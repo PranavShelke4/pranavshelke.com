@@ -4,7 +4,7 @@ import bgVideo from "../../assets/video/loading.mp4";
 
 function Loading() {
   return (
-    <>
+    <div className="ls">
       <video className="videoTag" autoPlay loop muted>
         <source src={bgVideo} type="video/mp4" />
       </video>
@@ -21,7 +21,7 @@ function Loading() {
           <div className="white-orbit w3 leo"></div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
