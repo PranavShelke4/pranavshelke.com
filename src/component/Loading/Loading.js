@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import "./Loading.css";
 import bgVideo from "../../assets/video/loading.mp4";
@@ -18,7 +20,8 @@ function Loading() {
 
           <div className="white-orbit w1 leo"></div>
           <div className="white-orbit w2 leo"></div>
-          <div className="white-orbit w3 leo"></div>
+          <div class="white-orbit w3 leo"></div>
+          <a href=""> sad</a>
         </div>
       </div>
     </div>
