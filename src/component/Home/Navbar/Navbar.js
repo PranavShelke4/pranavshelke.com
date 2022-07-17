@@ -1,19 +1,31 @@
 import React from "react";
 import "./Navbar.css";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import me from "../../../assets/illustrator/me1.png";
 
 function MyNavbar() {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar className="navbar" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            {" "}
+            <img
+              src={me}
+              width="53"
+              height="53"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            /><label className="myname">Pranav Shelke</label>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              
+              <Nav.Link className="navLink" href="#home">About</Nav.Link>
+              <Nav.Link className="navLink" href="#link">Projects</Nav.Link>
+              <Nav.Link className="navLink" href="#home">Blogs</Nav.Link>
+              <Nav.Link className="navLink" href="#link">Hire Me </Nav.Link>
+              <Button className="ResumeBTN" size="lg" variant="outline-primary">Resume</Button>{" "}
             </Nav>
           </Navbar.Collapse>
         </Container>
