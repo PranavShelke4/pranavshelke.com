@@ -1,6 +1,13 @@
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
+
 * {
   overflow-x: hidden;
 }
+
 .header {
   padding-top: 5rem;
   background-color: #232d42;
@@ -18,27 +25,30 @@
   height: auto !important;
   margin-top: 1% !important;
   margin-left: -1.5rem;
+  position: relative;
 }
+
+/* Developer side code start */
 
 .devTitle {
   font-family: "Source Code Pro";
-  font-style: normal;
-  font-weight: 623;
-  font-size: 6rem;
-  text-transform: capitalize;
+  overflow: hidden;
+  font-weight: 923;
+  font-size: 5.5rem;
   position: absolute;
   top: 20rem;
-  left: 6.5rem;
+  left: 0.5rem;
 }
 
 .devDis {
   font-family: "Source Code Pro";
   font-style: normal;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
   position: absolute;
   top: 28rem;
   left: 10rem;
+  font-weight: 623;
 }
 
 .devSnap {
@@ -49,33 +59,63 @@
   font-size: 1.2rem;
 }
 .devSnap2 {
-    position: absolute;
-    top: 41.5rem;
-    left: 27rem;
-    font-family: "Inconsolata";
-    font-size: 1.2rem;
-  }
+  position: absolute;
+  top: 41.5rem;
+  left: 27rem;
+  font-family: "Inconsolata";
+  font-size: 1.2rem;
+}
 .devSnap3 {
-    position: absolute;
-    top: 42.7rem;
-    left: 26rem;
-    font-family: "Inconsolata";
-    font-size: 1.2rem;
-  }
+  position: absolute;
+  top: 42.7rem;
+  left: 26rem;
+  font-family: "Inconsolata";
+  font-size: 1.2rem;
+}
 .devSnap4 {
-    position: absolute;
-    top: 43.7rem;
-    left: 26rem;
-    font-family: "Inconsolata";
-    font-size: 1.8rem;
-  }
+  position: absolute;
+  top: 43.7rem;
+  left: 26rem;
+  font-family: "Inconsolata";
+  font-size: 1.8rem;
+}
 .devSnap5 {
-    position: absolute;
-    top: 45.5rem;
-    left: 28rem;
-    font-family: "Inconsolata";
-    font-size: 1.2rem;
-  }
+  position: absolute;
+  top: 45.5rem;
+  left: 28rem;
+  font-family: "Inconsolata";
+  font-size: 1.2rem;
+}
+
+/* Developer side code end */
+
+/* Gamer side code start */
+
+.gameTitle {
+  position: absolute;
+  top: 19rem;
+  left: 57rem;
+  font-family: "Press Start 2P";
+  font-size: 7.5rem;
+}
+.gameDis {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  position: absolute;
+  top: 28rem;
+  left: 65rem;
+  font-weight: 623;
+}
+
+.gameLogo {
+  position: absolute;
+  width: 11rem;
+  height: 9rem;
+  left: 58.5rem;
+  top: 38rem;
+}
 
 @media only screen and (max-width: 603px) {
   .developer {
