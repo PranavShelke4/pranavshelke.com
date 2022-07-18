@@ -1,40 +1,92 @@
-*{
-    overflow-x: hidden;
+* {
+  overflow-x: hidden;
 }
-.header{
-    padding-top: 5rem;
-    background-color: #232D42;
-    color: white;
-    /* text-align: center !important; */
-    justify-content: center !important;
+.header {
+  padding-top: 5rem;
+  background-color: #232d42;
+  color: white;
+  justify-content: center !important;
 }
-.developer{
-    max-width: 19rem;
-    height: auto !important;
-    margin-top: 1% !important;
-    display: inline-block;
-    /* margin-left: 16rem; */
+.developer {
+  max-width: 19rem;
+  height: auto !important;
+  margin-top: 1% !important;
+  position: relative;
 }
-.gamer{
-    max-width: 19rem;
-    height: auto !important;
-    margin-top: 1% !important;
-    margin-left: -1.5rem;
+.gamer {
+  max-width: 19rem;
+  height: auto !important;
+  margin-top: 1% !important;
+  margin-left: -1.5rem;
 }
 
+.devTitle {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 623;
+  font-size: 6rem;
+  text-transform: capitalize;
+  position: absolute;
+  top: 20rem;
+  left: 6.5rem;
+}
 
-@media only screen and (max-width: 603px) {
+.devDis {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  position: absolute;
+  top: 28rem;
+  left: 10rem;
+}
 
-    .developer{
-      max-width: 50% !important;
-      margin-top: -30%;
-    }
-    .gamer{
-        max-width: 50% !important;
-        margin-left: -6.1% !important;
-        margin-top: -30.4%;
-    }
-
+.devSnap {
+  position: absolute;
+  top: 40rem;
+  left: 28rem;
+  font-family: "Inconsolata";
+  font-size: 1.2rem;
+}
+.devSnap2 {
+    position: absolute;
+    top: 41.5rem;
+    left: 27rem;
+    font-family: "Inconsolata";
+    font-size: 1.2rem;
+  }
+.devSnap3 {
+    position: absolute;
+    top: 42.7rem;
+    left: 26rem;
+    font-family: "Inconsolata";
+    font-size: 1.2rem;
+  }
+.devSnap4 {
+    position: absolute;
+    top: 43.7rem;
+    left: 26rem;
+    font-family: "Inconsolata";
+    font-size: 1.8rem;
+  }
+.devSnap5 {
+    position: absolute;
+    top: 45.5rem;
+    left: 28rem;
+    font-family: "Inconsolata";
+    font-size: 1.2rem;
   }
 
-
+@media only screen and (max-width: 603px) {
+  .developer {
+    max-width: 50% !important;
+    margin-top: -30%;
+    position: static;
+  }
+  .gamer {
+    max-width: 50% !important;
+    margin-left: -6.1% !important;
+    margin-top: -30.4%;
+    position: static;
+  }
+}
