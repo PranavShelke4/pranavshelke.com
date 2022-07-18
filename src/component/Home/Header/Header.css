@@ -1,0 +1,14 @@
+.header{
+    padding-top: 5rem;
+    background-color: #232D42;
+    color: white;
+    text-align: center;
+}
+.developer{
+    margin-top: -1.1rem;
+}
+.gamer{
+    position: absolute;
+    left: 27.8rem;
+    top: 3.6rem;
+}
