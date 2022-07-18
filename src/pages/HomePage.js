@@ -5,9 +5,8 @@ import Header from '../component/Home/Header/Header'
 function HomePage() {
   return (
     <>
-      <Navbar />
+        <Navbar />
       <Header />
-
     </>
   )
 }
