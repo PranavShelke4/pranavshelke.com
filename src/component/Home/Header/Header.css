@@ -9,17 +9,17 @@
     justify-content: center !important;
 }
 .developer{
-    max-width: 50%;
-    height: 46rem !important;
-    margin-top: -3.2%;
+    max-width: 19rem;
+    height: auto !important;
+    margin-top: 1% !important;
     display: inline-block;
     /* margin-left: 16rem; */
 }
 .gamer{
-    max-width: 50%;
-    height: 46rem !important;
-    margin-top: -3.3%;
-    margin-left: -33.2rem;
+    max-width: 19rem;
+    height: auto !important;
+    margin-top: 1% !important;
+    margin-left: -1.5rem;
 
 }
 

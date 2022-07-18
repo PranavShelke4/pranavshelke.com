@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import Developer from "../../../assets/illustrator/face1.svg";
-import Gamer from "../../../assets/illustrator/face2.svg";
+import Developer from "../../../assets/illustrator/face1.png";
+import Gamer from "../../../assets/illustrator/face2.png";
 
 function Header() {
   return (

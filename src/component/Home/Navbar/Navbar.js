@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
-import me from "../../../assets/illustrator/Gamer.svg";
+import me from "../../../assets/illustrator/Gamer.png";
 
 function MyNavbar() {
   return (
