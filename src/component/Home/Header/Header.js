@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import DeveloperImg from "../../../assets/illustrator/face1.png";
 import Gamer from "../../../assets/illustrator/face2.png";
-// import AssassinsCreed from "../../../assets/illustrator/AssassinsCreed.png";
+import AssassinsCreed from "../../../assets/illustrator/AssassinsCreed.png";
 
 function Header() {
   let devTitle = "<Developer/>";
@@ -25,9 +25,9 @@ function Header() {
       <img src={DeveloperImg} className="developer" alt="developer" />
 
       {/* Gamer Side */}
-      {/* <h1 className="gameTitle">Gamer</h1>
+      <h1 className="gameTitle">Gamer</h1>
       <p className="gameDis">passionate about play<br></br> mobile,pc games</p>
-      <img src={AssassinsCreed} className="gameLogo" alt="Assassins Creed Logo" /> */}
+      <img src={AssassinsCreed} className="gameLogo" alt="Assassins Creed Logo" />
       <img src={Gamer} className="gamer" alt="gamer" />
      
     </div>
