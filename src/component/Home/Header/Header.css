@@ -117,16 +117,57 @@
   top: 38rem;
 }
 
-@media only screen and (max-width: 603px) {
+@media only screen and (max-width: 991px) {
   .developer {
     max-width: 50% !important;
-    margin-top: -30%;
-    position: static;
+    /* margin-top: -15% !important; */
+    position: relative;
   }
   .gamer {
     max-width: 50% !important;
-    margin-left: -6.1% !important;
-    margin-top: -30.4%;
-    position: static;
+    margin-left: -auto !important;
+    /* margin-top: -15% !important; */
+    position: relative;
   }
+  /* .devTitle {
+    position: absolute;
+    font-size: 3.5rem;
+    top: 6.5rem;
+    left: 5rem;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+  .devDis{
+    display: none;
+  }
+  .devSnap, .devSnap2, .devSnap3, .devSnap4, .devSnap5 {
+    display: none;
+  }
+  .gameTitle{
+    position: absolute;
+    font-size: 4.5rem;
+    top: 7rem;
+    left: 22.8rem;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+  .gameDis{
+    display: none;
+  } */
+
+  .devTitle {
+    position: absolute;
+    font-size: 3.5rem;
+    top: 6.5rem;
+    left: 5rem;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+  .devDis{
+    display: none;
+  }
+  .devSnap, .devSnap2, .devSnap3, .devSnap4, .devSnap5 {
+    display: none;
+  } 
+
 }
