@@ -8,7 +8,7 @@ function MyNavbar() {
     <>
       <Navbar className="navbar" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#header">
             {" "}
             <img
               src={me}
@@ -21,7 +21,7 @@ function MyNavbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="navLink" href="#home">About</Nav.Link>
+              <Nav.Link className="navLink" href="#AboutMe">About</Nav.Link>
               <Nav.Link className="navLink" href="#link">Projects</Nav.Link>
               <Nav.Link className="navLink" href="#home">Blogs</Nav.Link>
               <Nav.Link className="navLink" href="#link">Hire Me </Nav.Link>

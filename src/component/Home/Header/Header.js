@@ -13,7 +13,7 @@ function Header() {
   let snap5 = "color:”#00”;";
 
   return (
-    <div className="header row">
+    <div className="header row" id="header">
       {/* Developer Side */}
        <h1 className="devTitle" >{devTitle}</h1>
        <p className="devDis">Full Stack web-developer who <br></br> write clean and efficient code</p>
