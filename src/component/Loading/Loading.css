@@ -79,19 +79,15 @@
 
   .spinner-box {
 	width: 100% !important;
-	min-height: 45rem !important;
+	height: 100% !important;
+	position: absolute !important;
+	top: 0% !important;
 	display: flex;
 	justify-content: center ;
 	align-items: center ;
 	background-color: transparent;
   }
 
-  @media only screen and (max-width: 768px) {
-	.spinner-box{
-		width: 100% !important;
-	    min-height: 40rem !important;
-	}
-  }
   
   .leo {
 	  position: absolute;
