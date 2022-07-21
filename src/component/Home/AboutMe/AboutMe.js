@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./AboutMe.css";
 import { Container } from "react-bootstrap";
@@ -43,11 +44,11 @@ function AboutMe() {
       <img className="LanguagesIcon" title="Figma" src={Figma} alt="figma" />
       <br></br>
 
-      <img className="SocialIcon" src={Gmail} alt="gmail" />
-      <img className="SocialIcon" src={Github} alt="github" />
-      <img className="SocialIcon" src={LinkedIn} alt="linkedin" />
-      <img className="SocialIcon" src={Twitter} alt="twitter" />
-      <img className="SocialIcon" src={Instagram} alt="instagram" />
+      <a href="mailto:pranavshelke4@gmail.com" target="_blank" rel="noreferrer"><img className="SocialIcon" src={Gmail} alt="gmail" /></a>
+      <a href="https://github.com/PranavShelke4" target="_blank" rel="noreferrer"><img className="SocialIcon" src={Github} alt="github" /></a>
+      <a href="https://www.linkedin.com/in/pranav-shelke/" target="_blank" rel="noreferrer"><img className="SocialIcon" src={LinkedIn} alt="linkedin" /></a>
+      <a href="https://twitter.com/pranavShelke15" target="_blank" rel="noreferrer"><img className="SocialIcon" src={Twitter} alt="twitter" /></a>
+      <a href="https://www.instagram.com/_pranav__shelke_/" target="_blank" rel="noreferrer" ><img className="SocialIcon" src={Instagram} alt="instagram" /></a>
 
       </div>
       </Container>
