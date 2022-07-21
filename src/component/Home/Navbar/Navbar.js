@@ -24,7 +24,7 @@ function MyNavbar() {
               <Nav.Link className="navLink" href="#AboutMe">About</Nav.Link>
               <Nav.Link className="navLink" href="#link">Projects</Nav.Link>
               <Nav.Link className="navLink" href="#home">Blogs</Nav.Link>
-              <Nav.Link className="navLink" href="#link">Hire Me </Nav.Link>
+              <Nav.Link className="navLink" href="#hire-me">Hire Me </Nav.Link>
               <Button className="ResumeBTN" size="lg" variant="outline-primary">Resume</Button>{" "}
             </Nav>
           </Navbar.Collapse>
