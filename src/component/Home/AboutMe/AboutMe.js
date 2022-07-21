@@ -31,16 +31,16 @@ function AboutMe() {
           When I’m not programming, I focus on my hobbies which are: Other than coding, I'm passionate about Game​ 🎮​​ and Hacking ​🔒​💻​.</p>
       <h1>PROFICIENT SKILLS</h1>
       <div className="skills">
-      <img className="LanguagesIcon" src={Html} alt="html" />
-      <img className="LanguagesIcon" src={Css} alt="css" />
-      <img className="LanguagesIcon" src={Bootstrap} alt="bootstrap" />
-      <img className="LanguagesIcon" src={JavaScript} alt="javascript" />
-      <img className="LanguagesIcon" src={ReactJS} alt="reactjs" />
-      <img className="LanguagesIcon" src={NodeJS} alt="nodejs" />
-      <img className="LanguagesIcon" src={MongoDB} alt="mongodb" />
-      <img className="LanguagesIcon" src={Git} alt="git" />
-      <img className="LanguagesIcon" src={Firebase} alt="firebase" />
-      <img className="LanguagesIcon" src={Figma} alt="figma" />
+      <img className="LanguagesIcon" title="HTML" src={Html} alt="html" />
+      <img className="LanguagesIcon" title="CSS" src={Css} alt="css" />
+      <img className="LanguagesIcon" title="Bootstrap" src={Bootstrap} alt="bootstrap" />
+      <img className="LanguagesIcon" title="Java Script" src={JavaScript} alt="javascript" />
+      <img className="LanguagesIcon" title="React JS" src={ReactJS} alt="reactjs" />
+      <img className="LanguagesIcon" title="Node JS" src={NodeJS} alt="nodejs" />
+      <img className="LanguagesIcon" title="MongoDB" src={MongoDB} alt="mongodb" />
+      <img className="LanguagesIcon" title="Git" src={Git} alt="git" />
+      <img className="LanguagesIcon" title="Firebase" src={Firebase} alt="firebase" />
+      <img className="LanguagesIcon" title="Figma" src={Figma} alt="figma" />
       <br></br>
 
       <img className="SocialIcon" src={Gmail} alt="gmail" />
