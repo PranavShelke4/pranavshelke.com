@@ -45,9 +45,20 @@
 }
 
 .LanguagesIcon:hover{
-    cursor: pointer;
-    text-decoration: overline;
-    text-decoration-color: aqua;
+  transform: scale(1.1);
+}
+
+.SocialIcon{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    vertical-align: baseline;
+}
+
+.SocialIcon:hover{
+    transform: scale(1.1);
+   
 }
 
 

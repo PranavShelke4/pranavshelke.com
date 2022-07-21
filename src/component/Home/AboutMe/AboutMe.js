@@ -11,6 +11,12 @@ import MongoDB from "../../../assets/icon/MongoDB.png"
 import Git from "../../../assets/icon/Git.png"
 import Firebase from "../../../assets/icon/Firebase.png"
 import Figma from "../../../assets/icon/Figma.png"
+import Gmail from "../../../assets/icon/Gmail.png"
+import LinkedIn from "../../../assets/icon/LinkedIn.png"
+import Github from "../../../assets/icon/GitHub.png"
+import Twitter from "../../../assets/icon/Twitter.png"
+import Instagram from "../../../assets/icon/Instagram.png"
+
 
 
 function AboutMe() {
@@ -35,6 +41,14 @@ function AboutMe() {
       <img className="LanguagesIcon" src={Git} alt="git" />
       <img className="LanguagesIcon" src={Firebase} alt="firebase" />
       <img className="LanguagesIcon" src={Figma} alt="figma" />
+      <br></br>
+
+      <img className="SocialIcon" src={Gmail} alt="gmail" />
+      <img className="SocialIcon" src={Github} alt="github" />
+      <img className="SocialIcon" src={LinkedIn} alt="linkedin" />
+      <img className="SocialIcon" src={Twitter} alt="twitter" />
+      <img className="SocialIcon" src={Instagram} alt="instagram" />
+
       </div>
       </Container>
     </div>
