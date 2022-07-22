@@ -1,5 +1,56 @@
-.hire-me{
-    background-color: #232D42;
-    color: white;
-    padding-top: 3%;
+.hire-me {
+  background-color: #232d42;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.twoDiv {
+  padding-top: 3%;
+}
+
+.hireimg {
+  max-width: 100%;
+}
+
+.imputBox {
+  width: 100%;
+  padding: 5.5%;
+  background-color: transparent;
+  border-color: white !important;
+  color: white !important;
+}
+
+::placeholder {
+  color: white;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 900;
+}
+
+#inputBox {
+  /* margin-top: -16%; */
+  position: relative;
+}
+
+.msgbox{
+    height: 16rem;
+    padding: 5.5%;
+    background-color: transparent;
+    border-color: white !important;
+    color: white !important;
+    /* margin-top: -8rem; */
+}
+
+.submitBTN{
+    width: 15rem;
+    height: 4rem;
+    background-color: transparent;
+    border-color: white !important;
+    color: white !important;
+}
+
+.contactForm{
+    text-align: center;
 }
