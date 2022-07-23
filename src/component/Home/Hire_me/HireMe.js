@@ -20,6 +20,7 @@ function HireMe() {
           </div>
         </div>
       </Container>
+      
     </div>
   )
 }
