@@ -11,12 +11,14 @@ function HireMe() {
         <div className='row twoDiv'>
           <div className="col-lg-6"><img className='hireimg' src={HireMeImg} alt="Hire Me" /></div>
           <div className="col-lg-6 row">
-              <div className='col-lg-6'><input className='imputBox' type="text" placeholder='First Name' for="fname" /></div>
-              <div className='col-lg-6'><input className='imputBox' type="text" placeholder='Last Name' for="lname" /></div>
-              <div className='col-lg-6' id='inputBox'><input className='imputBox' type="email" placeholder='Email' for="Email" /></div>
-              <div className='col-lg-6' id='inputBox'><input className='imputBox' type="number" placeholder='Mobile No' for="mobile" /></div>
-              <textarea placeholder='Message' className='msgbox'></textarea>
-              <button className='submitBTN'>Submit</button>
+              <form method='post' >
+                <input type='text' placeholder='First Name *' className='imputBox' required/>
+                <input type='text' placeholder='Last Name *' className='imputBox' required/>
+                <input type='email' placeholder='Email *' className='imputBox' required/>
+                <input type='number' placeholder='Number' className='imputBox' />
+                <textarea placeholder='Message *' className='msgbox' required></textarea>
+                <button className='submitBTN'>Submit</button>
+              </form>
           </div>
         </div>
       </Container>
