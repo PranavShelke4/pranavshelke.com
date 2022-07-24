@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import Loading from './pages/LoadingPage';
 import Home from './pages/HomePage';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+
 
 
 function App() {
@@ -14,9 +16,12 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-       {showHome ? <Home /> : <Loading />}      
-    </div>
+    <BrowserRouter>
+    {showHome ? <Home /> : <Loading />}   
+      <Routes>
+        <Route path="*" element={<Navigate to="/" />}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
