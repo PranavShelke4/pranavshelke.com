@@ -13,7 +13,6 @@ function PageNotFound() {
         src={NotFound}
         alt="Page Not Found"
       />
-      
     </>
   );
 }
