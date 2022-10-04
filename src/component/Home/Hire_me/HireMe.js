@@ -11,7 +11,7 @@ function HireMe() {
         <div className='row twoDiv'>
           <div className="col-lg-6"><img className='hireimg' src={HireMeImg} alt="Hire Me" /></div>
           <div className="col-lg-6 row">
-              <form method='post' >
+              <form name="contact" netlify>
                 <input type='text' placeholder='First Name *' className='imputBox' required/>
                 <input type='text' placeholder='Last Name *' className='imputBox' required/>
                 <input type='email' placeholder='Email *' className='imputBox' required/>
