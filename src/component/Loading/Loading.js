@@ -19,7 +19,7 @@ function Loading() {
 
           <div className="white-orbit w1 leo"></div>
           <div className="white-orbit w2 leo"></div>
-          <div class="white-orbit w3 leo"></div>
+          <div className="white-orbit w3 leo"></div>
         </div>
       </div>
     </div>
