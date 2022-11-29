@@ -16,7 +16,7 @@ function HireMe() {
                 <input type='text' placeholder='Last Name *' className='imputBox' required/>
                 <input type='email' placeholder='Email *' className='imputBox' required/>
                 <input type='number' placeholder='Number' className='imputBox' />
-                <textarea placeholder='Message *' className='msgbox' required></textarea>
+                <textarea placeholder='Message *' className='msgbox' required />
                 <button className='submitBTN'>Submit</button>
               </form>
           </div>
