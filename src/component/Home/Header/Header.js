@@ -16,7 +16,7 @@ function Header() {
     <div className="header row" id="header">
       {/* Developer Side */}
        <h1 className="devTitle" >{devTitle}</h1>
-       <p className="devDis">Full Stack web-developer who <br></br> write clean and efficient code</p>
+       <p className="devDis">Full Stack web-developer who <br /> write clean and efficient code</p>
        <span className="devSnap">{snap1}</span>
        <span className="devSnap2">{snap2}</span>
        <span className="devSnap3">{snap3}</span>
@@ -26,7 +26,7 @@ function Header() {
 
       {/* Gamer Side */}
       <h1 className="gameTitle">Gamer</h1>
-      <p className="gameDis">passionate about play<br></br> mobile,pc games</p>
+      <p className="gameDis">passionate about play<br /> mobile,pc games</p>
       <img src={AssassinsCreed} className="gameLogo" alt="Assassins Creed Logo" />
       <img src={Gamer} className="gamer" alt="gamer" />
      

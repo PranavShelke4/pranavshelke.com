@@ -26,9 +26,9 @@ function AboutMe() {
       <Container>
         <h1> ABOUT ME</h1>
         <div className="myImg" />
-        <p className="AboutDis">👋 Hello, world! I am Pranav, a full-stack engineer from Pune, India.<br></br><br></br>
-          I love to design and code 👨🏼‍💻. I build high-quality applications for the web. I concentrate on writing clean, understandable and testable code.<br></br><br></br>
-          Currently, I'm completed my diploma 👨‍🎓 in Information Technology Engineering at the Government Polytechnic Awasari (KH), Pune. I love working in and as a team. I'm always looking for opportunities to learn and grow.<br></br><br></br>
+        <p className="AboutDis">👋 Hello, world! I am Pranav, a full-stack engineer from Pune, India.<br /><br />
+          I love to design and code 👨🏼‍💻. I build high-quality applications for the web. I concentrate on writing clean, understandable and testable code.<br /><br />
+          Currently, I'm completed my diploma 👨‍🎓 in Information Technology Engineering at the Government Polytechnic Awasari (KH), Pune. I love working in and as a team. I'm always looking for opportunities to learn and grow.<br /><br />
           When I’m not programming, I focus on my hobbies which are: Other than coding, I'm passionate about Game​ 🎮​​ and Hacking ​🔒​💻​.</p>
       <h1>PROFICIENT SKILLS</h1>
       <div className="skills">
@@ -42,7 +42,7 @@ function AboutMe() {
       <img className="LanguagesIcon" title="Git" src={Git} alt="git" />
       <img className="LanguagesIcon" title="Firebase" src={Firebase} alt="firebase" />
       <img className="LanguagesIcon" title="Figma" src={Figma} alt="figma" />
-      <br></br>
+      <br />
 
       <a href="mailto:pranavshelke4@gmail.com" target="_blank" rel="noreferrer"><img className="SocialIcon" src={Gmail} alt="gmail" /></a>
       <a href="https://github.com/PranavShelke4" target="_blank" rel="noreferrer"><img className="SocialIcon" src={Github} alt="github" /></a>
