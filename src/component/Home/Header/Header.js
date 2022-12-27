@@ -1,35 +1,62 @@
 import React from "react";
 import "./Header.css";
-import DeveloperImg from "../../../assets/illustrator/face1.png";
-import Gamer from "../../../assets/illustrator/face2.png";
-import AssassinsCreed from "../../../assets/illustrator/AssassinsCreed.png";
+import { Link } from "react-router-dom";
 
 function Header() {
-  let devTitle = "<Developer/>";
-  let snap1 = "<HTML/>";
-  let snap2 = "width : 184px; }";
-  let snap3 = "class=”welcome”>";
-  let snap4 = "CSS HTML5";
-  let snap5 = "color:”#00”;";
+  // const tag1 = "<html>";
+  // const tag2 = "<body>";
+  // const tag3 = "<h1>";
+  // const tag4 = "</h1>";
+  // const tag5 = "<p>";
+  // const tag6 = "</p>";
 
   return (
-    <div className="header row" id="header">
-      {/* Developer Side */}
-       <h1 className="devTitle" >{devTitle}</h1>
-       <p className="devDis">Full Stack web-developer who <br /> write clean and efficient code</p>
-       <span className="devSnap">{snap1}</span>
-       <span className="devSnap2">{snap2}</span>
-       <span className="devSnap3">{snap3}</span>
-       <span className="devSnap4">{snap4}</span>
-       <span className="devSnap5">{snap5}</span>
-      <img src={DeveloperImg} className="developer" alt="developer" />
+    <div className="header">
+    <div className="tag1">
+      <t></t><br />
+    </div>
+    <div className="hedline">
+      <br />
+      <h1 class="letter sp1">H</h1>
+      <h1 class="letter">i</h1>
+      <h1 class="letter">,</h1>
+      <br />
 
-      {/* Gamer Side */}
-      <h1 className="gameTitle">Gamer</h1>
-      <p className="gameDis">passionate about play<br /> mobile,pc games</p>
-      <img src={AssassinsCreed} className="gameLogo" alt="Assassins Creed Logo" />
-      <img src={Gamer} className="gamer" alt="gamer" />
-     
+      <h1 class="letter sp1">I</h1>
+      <h1 class="letter">'</h1>
+      <h1 class="letter sp2">m</h1>
+
+      <h1 id="IMP-letter" class="letter ">P</h1>
+      <h1 class="letter">r</h1>
+      <h1 class="letter">a</h1>
+      <h1 class="letter">n</h1>
+      <h1 class="letter">a</h1>
+      <h1 class="letter sp2">v</h1>
+
+      <h1 id="IMP-letter" class="letter">S</h1>
+      <h1 class="letter">h</h1>
+      <h1 class="letter">e</h1>
+      <h1 class="letter">l</h1>
+      <h1 class="letter">k</h1>
+      <h1 class="letter">e</h1>
+      <h1 class="letter">,</h1>
+      <br />
+      <h1 class="letter sp1">w</h1>
+      <h1 class="letter">e</h1>
+      <h1 class="letter sp2">b</h1>
+
+      <h1 class="letter">d</h1>
+      <h1 class="letter">e</h1>
+      <h1 class="letter">v</h1>
+      <h1 class="letter">e</h1>
+      <h1 class="letter">l</h1>
+      <h1 class="letter">o</h1>
+      <h1 class="letter">p</h1>
+      <h1 class="letter">e</h1>
+      <h1 class="letter">r</h1>
+    </div>
+    <p className="short-line"><br /><span>Front End Developer / WordPress Expert</span><br /></p>
+    <Link to={"/"}><button className="contact-btn">Contact me!</button></Link>
     </div>
   );
 }
