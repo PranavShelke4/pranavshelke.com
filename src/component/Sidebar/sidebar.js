@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./sidebar.css";
-import logo from "../../assets/illustrator/me1.png";
+import logo from "../../assets/icon/PS.svg";
 import { Link } from "react-router-dom";
 
 function sidebar() {
