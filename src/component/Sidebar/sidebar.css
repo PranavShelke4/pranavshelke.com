@@ -1,0 +1,91 @@
+.sidebar{
+    width: 8%;
+    height: 100%;
+    position: fixed;
+    background-color: #181818;
+    color: #575757 !important;
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+    z-index: 3;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.logo{
+    background-color: black;
+    width: 100%;
+}
+
+.logo-img{
+    width: 10rem;
+    height: 10rem;
+}
+
+span {
+    font-size: 1rem;
+}
+
+.sidebar-link{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+Link, a {
+    text-decoration: none !important;
+    color: #575757;
+}
+
+.page-link{
+    color: #575757;
+    background-color: #181818;
+    width: 100%;
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+    border-left: none;
+    border-right: none;
+}
+
+.page-link:hover{
+    background-color: #181818;
+    color: aqua;
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+}
+
+
+.social-link{
+    color: #909096;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 10%;
+}
+
+a:hover {
+    color: aqua;
+}

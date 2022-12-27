@@ -1,16 +1,14 @@
 import React from 'react'
-import Navbar from '../component/Home/Navbar/Navbar'
+import Sidebar from '../component/Sidebar/sidebar'
 import Header from '../component/Home/Header/Header'
 import AboutMe from '../component/Home/AboutMe/AboutMe'
-import Hireme from '../component/Home/Hire_me/HireMe'
 
 function HomePage() {
   return (
     <>
-      <Navbar />
+      <Sidebar />
       <Header />
       <AboutMe />
-      <Hireme />
     </>
   )
 }
