@@ -1,16 +1,13 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import Cursor from "../../CustomCursor/cursor";
 
 function Header() {
-  // const tag1 = "<html>";
-  // const tag2 = "<body>";
-  // const tag3 = "<h1>";
-  // const tag4 = "</h1>";
-  // const tag5 = "<p>";
-  // const tag6 = "</p>";
 
   return (
+    <>
+    <Cursor />
     <div className="header">
     <div className="tag1">
       <t /><br />
@@ -58,6 +55,7 @@ function Header() {
     <p className="short-line"><br /><span>Front End Developer / WordPress Expert</span><br /></p>
     <Link to={"/"}><button className="contact-btn">Contact me!</button></Link>
     </div>
+    </>
   );
 }
 

@@ -38,7 +38,7 @@ function sidebar() {
         <a target="_blank" href="https://github.com/PranavShelke4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-brand-github"
+            className=" icon-tabler icon-tabler-brand-github"
             width="35"
             height="35"
             viewBox="0 0 24 24"
@@ -55,7 +55,7 @@ function sidebar() {
         <a target="_blank" href="https://www.linkedin.com/in/pranav-shelke/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-brand-linkedin"
+            className=" icon-tabler icon-tabler-brand-linkedin"
             width="35"
             height="35"
             viewBox="0 0 24 24"
@@ -76,7 +76,7 @@ function sidebar() {
         <a target="_blank" href="https://www.instagram.com/_pranav__shelke_/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-brand-instagram"
+            className=" icon-tabler icon-tabler-brand-instagram"
             width="35"
             height="35"
             viewBox="0 0 24 24"
