@@ -54,6 +54,15 @@ function Header() {
     </div>
     <p className="short-line"><br /><span>Front End Developer / WordPress Expert</span><br /></p>
     <Link to={"/"}><button className="contact-btn">Contact me!</button></Link>
+    <div class="scroll-down">
+            <span>scroll down</span>
+            
+        </div>
+
+        <div class="scroll-down scroll-down--left">
+            <span>scroll down</span>
+            
+        </div>
     </div>
     </>
   );

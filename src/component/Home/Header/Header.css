@@ -60,6 +60,7 @@
   color: aqua;
   transform: scaleX(0.9) scaleY(1.2);
   transition: transform 0.2s ease;
+  animation-duration: 1s;
 }
 
 .sp1 {
@@ -114,4 +115,37 @@
   color: black;
   transition: 0.7s;
   box-shadow: 8px 8px 1px red;
+}
+
+.scroll-down{
+  position: absolute;
+  right: -20px;
+  bottom: 3.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(90deg);
+  display: block;
+  font-size: 1.5rem;
+}
+.scroll-down--left{
+  left: -2rem;
+  right: auto;
+}
+.scroll-down span{
+  display: inline-block;
+  animation: scroll .5s linear infinite alternate-reverse;
+}
+@keyframes scroll{
+  0%{
+      transform: translateX(-7px);
+  }
+  100%{
+      transform: translateX(7px);
+  }
+}
+.scroll-down .fas{
+  transform: rotate(270deg);
+  margin-left: 10px;
 }
