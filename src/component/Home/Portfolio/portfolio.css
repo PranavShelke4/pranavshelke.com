@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&display=swap");
+
 .section {
-  background-color: #292828;
+  background-color: #1d1d1d;
   color: white;
-  height: 30vh;
+  height: 70vh;
   overflow: hidden;
   padding: 12%;
   padding-bottom: 2%;
@@ -15,13 +17,86 @@
   padding-left: 3%;
 }
 
+.portfolio-tag1::before {
+  content: "<h1>";
+  color: #575757;
+  font-family: "Caramel", cursive;
+  font-size: 2rem;
+}
+
+.portfolio-tag1::after {
+  content: "</h1>";
+  color: #575757;
+  font-family: "Caramel", cursive;
+  font-size: 2rem;
+}
+
+.portfolio-tag2 {
+  font-size: larger;
+}
+
+.portfolio-tag2::before {
+  content: "<p>";
+  color: #575757;
+  font-family: "Caramel", cursive;
+  font-size: 2rem;
+}
+
+.portfolio-tag2::after {
+  content: "</p>";
+  color: #575757;
+  font-family: "Caramel", cursive;
+  font-size: 2rem;
+}
+
 .fake-bg {
   position: absolute;
-  top: 0%;
-  left: 30%;
+  top: -20%;
+  left: 40%;
   bottom: 0;
   z-index: 1;
   text-align: right;
-  font-size: 25rem;
+  font-size: 30rem;
   overflow: hidden;
+  color: #262626;
+}
+
+.view-more-btn {
+  color: aqua;
+  width: 15rem;
+  height: 3.5rem;
+  overflow: hidden;
+  background-color: transparent;
+  border: 2px solid aqua;
+  cursor: pointer;
+  font-size: large;
+  position: absolute;
+  right: 10%;
+  z-index: 100;
+  transition: 0.3s;
+}
+
+.view-more-btn::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17c3b2;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.view-more-btn:hover::before{
+  width: 105%;
+}
+
+.view-more-btn:hover {
+  background-color: aqua;
+  color: black;
+  transition: 0.7s;
+  box-shadow: 8px 8px 1px red;
 }

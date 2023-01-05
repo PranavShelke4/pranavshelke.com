@@ -31,6 +31,7 @@
 
 .hedline {
   padding-top: 7%;
+  overflow: hidden !important;
 }
 
 .hedline:before {
@@ -102,12 +103,34 @@
 
 .contact-btn {
   color: aqua;
-  width: 12rem;
+  width: 15rem;
   height: 3.5rem;
+  overflow: hidden;
   background-color: transparent;
   border: 2px solid aqua;
   cursor: pointer;
   font-size: large;
+  position: absolute;
+  z-index: 100;
+  transition: 0.3s;
+}
+
+.contact-btn::before{
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17c3b2;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.contact-btn:hover::before{
+  width: 105%;
 }
 
 .contact-btn:hover{
